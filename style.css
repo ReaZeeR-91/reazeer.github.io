@@ -1,0 +1,881 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    background-color: #011233;
+}
+
+nav{
+    background-color: #142C5A;
+    padding: 12px;
+}
+
+.logo{
+    position: absolute;
+    height: 30px;
+    left: 10px;
+    top: 7px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1000px;
+    align-items: center;
+    height: 100%;
+}
+
+.a{
+    color: #CCCCCC;
+    font-size: 20px;
+    align-items: center;
+}
+
+.a:hover{
+    color: #686868;
+}
+
+
+/* Ceci est la fin du nav*/
+
+
+.container{
+    height: 95.5vh;
+    width: 100%;
+    background-color:  #142C5A ;
+}
+
+.back{
+    width: 100%;
+}
+
+.fond{
+    position: absolute;
+    width: 100%;
+    height: 571px;
+    background: linear-gradient(transparent, #142C5A);
+    text-align: center;
+}
+
+.slogan{
+    font-size: 2.8em;
+    color: #CCCCCC;
+    margin-top: 350px
+}
+
+.rectangle{
+    width: 100%;
+    position: absolute;
+    height: 391px;
+    background-color: #142C5A;
+    top: 616px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.nbm{
+    background-color: #011233;
+    color: #CCCCCC;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.nnbm{
+    margin-bottom: 100px;
+}
+
+.tritre{
+    margin-top: 20px;
+    color: #3AA7FF;
+    font-size: 2.6em;
+}
+
+.para{
+    color: #CCCCCC;
+    margin-top: 30px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.trait{
+    width: 80%;
+    background-color: #011233;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.uippe{
+    margin-left: 89%;
+    color: #919191;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.first-container{
+    width: 100%;
+    background-color: #142C5A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: -2;
+}
+
+.reazeer-logo{
+    height: 100px;
+}
+
+.reazeer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #CCCCCC;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-right: 200px;
+    background-color: #011233c2;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.reazeer:hover{
+    transform: scale(1.05);
+}
+
+.flex-2{
+    margin: 50px;
+    width: 500px;
+    font-size: 1.2em;
+}
+
+.nom-info{
+    margin-left: 12px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.forum-logo{
+    height: 200px;
+}
+
+.forum{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #CCCCCC;
+    width: 1200px;
+    margin: 0 auto;
+    margin-left: 200px;
+    margin-top: 100px;
+    background-color: #011233c2;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.forum:hover{
+    transform: scale(1.05);
+}
+
+.boutique-logo{
+    height: 250px;
+}
+
+.boutique{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #CCCCCC;
+    width: 1200px;
+    margin: 0 auto;
+    margin-right: 200px;
+    margin-top: 100px;
+    background-color: #011233c2;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.boutique:hover{
+    transform: scale(1.05);
+}
+
+.tutoriel-logo{
+    height: 100px;
+}
+
+.tutoriel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #CCCCCC;
+    width: 1200px;
+    margin: 0 auto;
+    margin-left: 200px;
+    margin-top: 100px;
+    background-color: #011233c2;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.tutoriel:hover{
+    transform: scale(1.05);
+}
+
+.good{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3{
+    text-align: center;
+    color: #CCCCCC;
+    font-size: 4em;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    text-transform: uppercase;
+}
+
+.ab{
+    background-color: #011233;
+    width: 18%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #011233;
+}  
+
+.ggg{
+    display: flex;
+    align-items: center;
+    color: #3AA7FF;
+    margin-bottom: 2px;
+}
+
+.test{
+    height: 30px;
+}
+
+.pseudo{
+    margin-left: 10px;
+    font-size: 1.3em;
+}
+
+.petit{
+    color: white;
+    font-size: 1.1em;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #011233;
+    position: relative;
+    border-top: 2px solid #919191;
+}
+
+.reazeer-footer{
+    color: #919191;
+    font-size: 1.8em;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.ytba{
+    color: #919191;
+    position: absolute;
+    font-size: 1.8em;
+    left: 20px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.tkt{
+    color: #919191;
+    position: absolute;
+    font-size: 1.8em;
+    top: 10px;
+    left: 80px;
+    cursor: pointer;
+}
+
+form{
+    position: relative;
+    margin-top:80px;
+    margin-right: 750px;
+}
+
+.inopy{
+    color: black;
+    display: flex;
+    justify-content: end;
+    margin-right: 200px;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.des{
+    width: 500px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: 2px solid #919191;
+    padding: 5px;
+    color: #919191;
+    font-weight: 600;
+    font-size: 0.8em;
+    border-radius: 15px;
+}
+
+.des::placeholder{
+    position: absolute;
+    top: 5px;
+    text-transform: uppercase;
+}
+
+.des:focus{
+    border: 3px solid #919191;
+    outline: none;
+}
+
+label{
+    font-size: 1.3em;
+    color: #919191;
+}
+
+.sublmut{
+    background-color: transparent;
+    border: 2px solid #919191;
+    font-size: 1.8em;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #919191;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: all 1s;
+    border-radius: 15px;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+
+.sublmut:hover{
+    background-color: #919191;
+    color: #011233;
+}
+
+.repo{
+    display: none;
+}
+
+.avise{
+    margin-top: 100px;
+}
+
+
+
+
+
+.script{
+    background-color: #142C5A;
+}
+
+.card{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    border: 3px solid #011233;
+    filter: blur(5px);
+    transition: all .5s;
+}
+
+.a:hover{
+    filter: blur(0px);
+    transform: scale(1.1);
+}
+.b:hover{
+    filter: blur(0px);
+    transform: scale(1.1);
+}
+.c:hover{
+    filter: blur(0px);
+    transform: scale(1.1);
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nav-footer{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1574px){
+    ul{
+       margin-right: 200px;
+    }
+
+    .a{
+        margin-right: 10px;
+    }
+
+    .fond{
+        height: 460px;
+    }
+
+    .trait{
+        margin-top: 60px;
+    }
+    .uippe{
+        margin-left: 87%;
+    }
+    form{
+        margin-left: 000px;
+        margin-right: 400px;
+    }
+}
+
+@media screen and (max-width: 1429px){
+    .reazeer, .forum, .boutique, .tutoriel{
+        transform: scale(0.9);
+    }
+
+    .reazeer:hover, .forum:hover, .boutique:hover, .tutoriel:hover{
+        transform: scale(0.95);
+    }
+
+    .card{
+        transform: scale(0.9);
+    }
+
+    .script-a .a:hover, .b:hover, .c:hover{
+        transform: scale(1);
+    }
+    
+    .uippe{
+        margin-left: 86%;
+    }
+
+    .ab{
+        transform: scale(0.9);
+        width: 300px;
+    }
+
+    .sublmut{
+        margin-left: 45%;
+    }
+}
+
+
+@media screen and (max-width: 1370px){
+    ul{
+        margin-right: 500px;
+    }
+    .fond{
+        height: 410px;
+    }
+
+    .rectangle{
+        transform: scale(0.9);
+    }
+
+    .reazeer, .forum, .boutique, .tutoriel{
+        transform: scale(0.8);
+    }
+
+    .reazeer:hover, .forum:hover, .boutique:hover, .tutoriel:hover{
+        transform: scale(0.85);
+    }
+
+    .card{
+        transform: scale(0.8);
+    }
+
+    .script-a .a:hover, .b:hover, .c:hover{
+        transform: scale(0.9);
+    }
+
+    .ab{
+        transform: scale(0.8);
+        width: 400px;
+    }
+
+    form{
+        transform: scale(.9);
+    }
+
+    .sublmut{
+        transform: scale(.9);
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width: 1370px){
+    .fond{
+        height: 400px;
+    }
+
+    .rectangle{
+        margin-top: -50px;
+    }
+
+    .uippe{
+        margin-left: 85%;
+    }
+
+    
+    .reazeer, .forum, .boutique, .tutoriel{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .reazeer:hover, .forum:hover, .boutique:hover, .tutoriel:hover{
+        transform: scale(0.85);
+    }
+
+    .card{
+        transform: scale(0.8);
+    }
+
+    .script-a .a:hover, .b:hover, .c:hover{
+        transform: scale(0.9);
+    }
+
+    .ab{
+        transform: scale(0.8);
+        width: 400px;
+    }
+
+    form{
+        transform: scale(.9);
+    }
+
+    .sublmut{
+        transform: scale(.9);
+        margin-left: 40%;
+    }
+
+    label{
+        font-size: 1.1em;
+        color: #919191;
+    }
+}
+
+@media screen and (max-width: 1370px){
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0;
+        align-items: center;
+        height: 100%;
+    }
+
+    .dddd{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        left: 0px;
+        top: 70px;
+        width: 100%;
+        height: 93%;
+        z-index: 1;
+        background-color: #0e2b796c;
+        backdrop-filter: blur(6px);
+        margin-left: -100%;
+        transition: all 1s;
+        border-top-right-radius: 100%;
+        border-bottom-right-radius: 100%;
+    }
+
+    .logo{
+        top: 20px;
+    }
+
+    li .a{
+        font-size: 1.8em;
+    }
+
+    li .a:hover{
+        color: white;
+    }
+
+    .dddd.mobile-menu{
+        margin-left: 0;
+        border-top-right-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+
+    .fond{
+        height: 415px;
+    }
+
+    .repo{
+        display: block;
+        height: 50px; 
+        margin-left: 1250px;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    form{
+        transform: scale(.9);
+        margin-right: 350px;
+    }
+
+    .ul-footer{
+        margin-left: 680px;
+        font-size: .8em;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1255px){
+    .fond{
+        height: 379px;
+    }
+    
+    .uippe{
+        margin-left: 84%;
+    }
+
+    .reazeer, .forum, .boutique, .tutoriel{
+        transform: scale(0.7);
+    }
+
+    .reazeer:hover, .forum:hover, .boutique:hover, .tutoriel:hover{
+        transform: scale(0.75);
+    }
+
+    .ab{
+        margin-top: -50px;
+        transform: scale(0.8);
+        width: 400px;
+    }
+
+    .ul-footer{
+        margin-left: 600px;
+        font-size: .8em;
+    }
+
+    .repo{
+        display: block;
+        height: 50px; 
+        margin-left: 1150px;
+        cursor: pointer;
+        z-index: 3;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .logo{
+        top: 10px;
+        height: 20px;
+    }
+
+    .repo{
+        margin-left: 340px;
+        height: 20px;
+    }
+
+    .fond{
+        height: 200px;
+    }
+
+    .back{
+        height: 200px;
+        width: 100%;
+    }
+    
+    .slogan{
+        font-size: 1.5em;
+        margin-top: 100px;
+    }
+
+    .rectangle{
+        top: 400px;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .nbm{
+        background-color: #011233;
+        color: #CCCCCC;
+        padding: 20px;
+        text-align: center;
+        height: 150px;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+    
+    .nnbm{
+        margin-bottom: 100px;
+    }
+
+    .tritre{
+        margin-top: 20px;
+        color: #3AA7FF;
+        font-size: 2.6em;
+    }
+    
+    .para{
+        color: #CCCCCC;
+        margin-top: 30px;
+        font-size: 1.4em;
+        text-transform: uppercase;
+        width: 300px;
+    }
+
+    .uippe{
+        margin-left: 25%;
+        color: #919191;
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+
+    .reazeer-logo{
+        height: 40px;
+        width: 220px;
+        margin-bottom: 15px;
+    }
+    
+    .reazeer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #CCCCCC;
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 50px;
+        background-color: #011233c2;
+        border-radius: 20px;
+        transition: all 0.5s;
+    }
+
+    .forum{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #CCCCCC;
+        width: 400px;
+        margin: 0 auto;
+        margin-top: -60px;
+        background-color: #011233c2;
+        border-radius: 20px;
+        transition: all 0.5s;
+    }
+
+    
+    .boutique{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #CCCCCC;
+        width: 400px;
+        margin: 0 auto;
+        margin-top: -60px;
+        background-color: #011233c2;
+        border-radius: 20px;
+        transition: all 0.5s;
+    }
+
+    
+    .tutoriel{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #CCCCCC;
+        width: 400px;
+        margin: 0 auto;
+        margin-top: -60px;
+        background-color: #011233c2;
+        border-radius: 20px;
+        transition: all 0.5s;
+    }
+
+    .ceciestuntest{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+    }
+
+    @keyframes test {
+        100%{
+            margin-left: 0;
+        }
+    }
+
+    .info {
+        text-align: justify;
+    }
+    
+    .flex-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .script-a .a{
+        margin-top: 100px;
+    }
+
+    .card{
+        margin-top: -100px;
+    }
+
+    .ul-footer{
+        position: absolute;
+        right: 100%;
+    }
+
+    .ab{
+        margin-top: 10px;
+    }
+
+    .inopy{
+        width: 500px;
+    }
+
+    form{
+        transform: scale(.65);
+        margin-right: 150px;
+    }
+
+    .sublmut{
+        margin-left: 150px;
+        font-size: 2.5em;
+    }
+
+    label{
+        font-size: .8em;
+        color: #919191;
+        width: 200px;
+    }
+}
